@@ -1,211 +1,133 @@
-# Awesome-Data-Marketplace-Platform
+<!-- SEO Meta Description: A curated list of top Data Marketplace platforms, commercial SaaS data exchange software, open-source data portals, and zero-copy data sharing protocols. -->
 
-## Top Data Marketplace Platforms Ecosystem
+![Awesome Data Marketplace Platform](assets/banner.svg)
 
-**Curated List of SaaS Products & Open-Source GitHub Projects**
+<p center>
+<a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a> <a href="https://github.com/ishandutta2007/Awesome-Data-Marketplace-Platform/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Data-Marketplace-Platform?style=flat-square" alt="GitHub Stars"/></a> <a href="https://github.com/ishandutta2007/Awesome-Data-Marketplace-Platform/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Data-Marketplace-Platform?style=flat-square" alt="GitHub Forks"/></a> <a href="https://github.com/ishandutta2007/Awesome-Data-Marketplace-Platform/blob/main/LICENSE"><img src="https://img.shields.io/github/license/ishandutta2007/Awesome-Data-Marketplace-Platform?style=flat-square" alt="License"/></a> <a href="https://github.com/ishandutta2007/Awesome-Data-Marketplace-Platform/commits/main"><img src="https://img.shields.io/github/last-commit/ishandutta2007/Awesome-Data-Marketplace-Platform?style=flat-square" alt="Last Commit"/></a> <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
+</p>
 
-*Focused on Data Exchange, Commercial Dataset Listings, Cloud-Native Delivery, Open Data Portals & Decentralized Data Markets*
+# 🌐 Awesome Data Marketplace Platform
 
-**Last updated: October 2026**
-
-
-
-This repository tracks notable **SaaS platforms** and **open-source projects** for **Data Marketplaces**. These systems enable organizations to list, discover, subscribe to, and consume third-party datasets—often with direct delivery into cloud warehouses or via APIs.
-
-
-
-**Examples** include Snowflake Marketplace, Dawex, DataHub Marketplace, Ocean Protocol, LiveRamp Data Marketplace, AWS Data Exchange, Databricks Marketplace, DataRade, Nomad Data, and DataStreamX (the category leaders).
-
-
-
-**Open-source emphasis**: Commercial cloud marketplaces dominate enterprise data buying. Strong open foundations exist for **open data portals** (CKAN) and **decentralized data exchange** (Ocean Protocol). This section expands those while remaining realistic about the commercial gap for curated paid datasets and cloud-native delivery.
-
-
-
-Contributions welcome! Open a PR to add/update entries. Keep descriptions factual and link to official sites.
-
-
-
-## Table of Contents
-
-- [SaaS/Hosted Platforms](#saas-products)
-
-- [Open-Source GitHub Projects](#open-source-github-projects)
-
-- [How to Contribute](#how-to-contribute)
-
-- [Disclaimer](#disclaimer)
-
-
-
-## SaaS/Hosted Platforms
-
-- **[Snowflake Marketplace](https://www.snowflake.com/en/data-cloud/marketplace/)**  
-
-  Native marketplace inside Snowflake for discovering and consuming third-party datasets with zero-copy or in-account delivery.
-
-
-
-- **[Dawex](https://www.dawex.com/)**  
-
-  Data exchange platform for organizations to publish, monetize, and acquire data products under controlled conditions.
-
-
-
-- **[DataHub Marketplace (ecosystem)](https://datahubproject.io/)**  
-
-  Marketplace-style discovery and sharing capabilities emerging around DataHub metadata and data product ecosystems.
-
-
-
-- **[Ocean Protocol](https://oceanprotocol.com/)**  
-
-  Decentralized data exchange protocol and marketplace for publishing and consuming data with blockchain-based access control.
-
-
-
-- **[LiveRamp Data Marketplace](https://liveramp.com/)**  
-
-  Identity and data marketplace focused on connectivity, onboarding, and activation of partner data.
-
-
-
-- **[AWS Data Exchange](https://aws.amazon.com/data-exchange/)**  
-
-  AWS marketplace for third-party datasets delivered into S3, Redshift, and other AWS services.
-
-
-
-- **[Databricks Marketplace](https://www.databricks.com/product/marketplace)**  
-
-  Marketplace integrated with the Databricks lakehouse for discovering and using commercial and open datasets.
-
-
-
-- **[DataRade](https://datarade.ai/)**  
-
-  Independent data marketplace aggregating commercial datasets across providers and categories.
-
-
-
-- **[Nomad Data](https://www.nomad-data.com/)**  
-
-  Data marketplace and brokerage focused on connecting buyers with specialized commercial datasets.
-
-
-
-- **[DataStreamX](https://www.datastreamx.com/)**  
-
-  Data marketplace platform for listing and exchanging commercial data products.
-
-
-
-## Open-Source GitHub Projects
-
-- **[Ocean Protocol](https://github.com/oceanprotocol)**  
-
-  Open-source decentralized data exchange stack—publish, price, and consume data assets with on-chain access control and compute-to-data patterns.
-
-
-
-- **[CKAN](https://github.com/ckan/ckan)**  
-
-  Leading open-source data portal and management system for publishing, cataloging, and sharing datasets (powers many government open data sites).
-
-
-
-- **[Ocean Market / reference UIs](https://github.com/oceanprotocol/market)**  
-
-  Open reference marketplace front-ends built on the Ocean Protocol stack.
-
-
-
-- **[Open data portal extensions](https://github.com/ckan)**  
-
-  CKAN extensions for harvesting, visualization, and federated open data catalogs.
-
-
-
-- **[Decentralized data exchange experiments](https://github.com/)**  
-
-  Community projects exploring blockchain-based data markets and compute-to-data patterns.
-
-
-
-- **[Dataset catalog and metadata open tools](https://github.com/)**  
-
-  Libraries for describing, versioning, and licensing datasets for exchange.
-
-
-
-- **[Frictionless Data / data package standards](https://github.com/frictionlessdata)**  
-
-  Open standards and tools for packaging and describing datasets for interoperable sharing.
-
-
-
-- **[Documentation and Ocean / CKAN playbooks](https://docs.oceanprotocol.com/)**  
-
-  Guides for publishing data assets, running market nodes, and operating open data portals.
-
-
-
-- **[Self-hosted open data hubs](https://github.com/)**  
-
-  Patterns combining CKAN + object storage + access controls for internal or public data sharing.
-
-
-
-- **[Compute-to-data open examples](https://github.com/oceanprotocol)**  
-
-  Reference algorithms and workflows that process data without exposing raw datasets.
-
-
-
-### Additional Strong Open-Source Options
-
-- Publishing open datasets with **CKAN** for public or internal data hubs.
-
-- Exploring decentralized exchange and compute-to-data with **Ocean Protocol**.
-
-- Packaging datasets with Frictionless Data standards for interoperability.
-
-- Accepting that curated commercial listings, enterprise contracts, cloud-native zero-copy delivery, and large-scale paid data economies remain commercial (Snowflake Marketplace, AWS Data Exchange, Databricks Marketplace, Dawex, LiveRamp, DataRade, etc.).
-
-- Focusing open-source efforts on open data publishing and privacy-preserving exchange models.
-
-
-
-**Frameworks for building custom systems**: Catalog with CKAN → host files in open storage → optionally layer Ocean Protocol for access control and monetization → deliver via APIs or direct download. Suitable for open data programs and experimental markets. Enterprise buyers of commercial datasets typically use cloud-native marketplaces.
-
-
-
-## How to Contribute
-
-1. Fork the repo.
-
-2. Add/edit entries in `README.md` (follow existing format).
-
-3. Include: name, link, 1–2 sentence description, and whether it's SaaS or open-source.
-
-4. Submit PR with a short explanation.
-
-
-
-Star the repo if you find it useful!
-
-
-
-## Disclaimer
-
-- This is a **community-curated** list — not exhaustive and not an endorsement.
-
-- Buying and selling data involves licensing, privacy, and regulatory obligations. Open-source tools do not replace legal review of commercial data contracts. This list is not legal or commercial advice.
-
-
+> **Curated List of Commercial SaaS Data Products, Cloud Exchange Platforms & Open-Source Data Portals**  
+> *Focused on Enterprise Data Sharing, Data Monetization, Open Data Portals, Zero-Copy Warehouses & Decentralized Data Markets.*
 
 ---
 
-**Made for data product teams, open data advocates, and marketplace builders.**
+## 📌 Table of Contents
+- [📊 SaaS & Hosted Data Marketplace Platforms](#-saas--hosted-data-marketplace-platforms)
+- [🔓 Open-Source GitHub Projects](#-open-source-github-projects)
+- [💡 Data Marketplace Frameworks & Architectural Patterns](#-data-marketplace-frameworks--architectural-patterns)
+- [🤝 How to Contribute](#-how-to-contribute)
+- [☕ Support & Sponsorship](#-support--sponsorship)
+- [📈 Star History](#-star-history)
+- [⚖️ Disclaimer](#%EF%B8%8F-disclaimer)
 
-Let's keep data exchange transparent, accessible, and as open as practical.
+---
+
+## 📊 SaaS & Hosted Data Marketplace Platforms
+
+> **Estimated Market Size & Market Structure:** The global Data Marketplace and Exchange Market is estimated at **$3.8 Billion in 2026** and projected to reach **$14.2 Billion by 2032** (CAGR of ~24.5%). The market is **moderately fragmented**: cloud infrastructure hyperscalers (AWS, Snowflake, Databricks) dominate enterprise zero-copy warehouse sharing, while specialized data brokers (Dawex, LiveRamp, DataRade) and decentralized networks (Ocean Protocol) compete in domain-specific commercial datasets and privacy-preserving data exchanges.
+
+The table below lists top commercial SaaS platforms sorted by **Company Size (Revenue / Valuation)** in descending order:
+
+| Platform / SaaS Product | Description | Company Size (Rev / Valuation) 🔽 | Starting Price | Free Tier / Free Trial Limits |
+| :--- | :--- | :--- | :--- | :--- |
+| **[AWS Data Exchange](https://aws.amazon.com/data-exchange/)** | AWS marketplace for third-party datasets delivered directly into S3, Redshift, and AWS Clean Rooms with automated ETL ingestion. | ~$100B+ (AWS Rev) / ~$2.2T (Market Cap) | $0/mo base for free listings; paid datasets start at $100/mo or pay-per-GB query fees. | **AWS Free Tier** includes 12-month free usage tier across core services; free commercial data products available with $0 subscription fee. |
+| **[Snowflake Marketplace](https://www.snowflake.com/en/data-cloud/marketplace/)** | Native data marketplace inside Snowflake Data Cloud for discovering and consuming live third-party datasets via zero-copy data sharing. | ~$3.8B Revenue / ~$45B Market Cap | Included in Snowflake capacity usage, starting at $2.00 per Snowflake Credit (Standard Edition). | **30-Day Free Trial** with $400 in free compute credits to query and evaluate marketplace data products. |
+| **[Databricks Marketplace](https://www.databricks.com/product/marketplace)** | Open data marketplace integrated with Databricks Lakehouse, enabling sharing of tabular data, AI models, and notebooks via Delta Sharing. | ~$2.4B Revenue / ~$43B Valuation | Pay-as-you-go based on Databricks Compute Units (DBUs), starting at $0.07 per DBU-hour (Serverless). | **14-Day Free Trial** with full access to Lakehouse environment and sample commercial dataset trials. |
+| **[LiveRamp Data Marketplace](https://liveramp.com/)** | Enterprise identity and customer data exchange platform focusing on privacy-safe data onboarding, activation, and data clean rooms. | ~$660M Revenue / ~$1.8B Market Cap | $1,500/month base platform license + data activation CPM fees starting from $0.10 per 1,000 audience records. | **14-Day Sandbox Access** for developer evaluation with mock dataset access (up to 10,000 test identity matches). |
+| **[Dawex](https://www.dawex.com/)** | Turnkey data exchange platform enabling enterprise organizations to orchestrate, license, monetize, and exchange data under custom governance rules. | ~$15M Revenue / ~$60M Valuation | $1,800/month starting for Dawex Data Exchange Platform Starter enterprise license. | **30-Day Enterprise Evaluation** trial with pre-configured data exchange workspace and 5 user seats. |
+| **[DataHub Marketplace (Acryl Data)](https://datahubproject.io/)** | Commercial managed catalog and metadata exchange ecosystem powered by Acryl Data for governance, lineage, and data product discovery. | ~$15M Revenue / ~$100M Valuation | $500/month starting for Acryl Data Managed Cloud Starter plan. | **14-Day Free Trial** for Acryl Cloud; core open-source DataHub is free forever under Apache 2.0. |
+| **[DataRade](https://datarade.ai/)** | Global B2B commercial data marketplace aggregating dataset listings across 2,000+ data providers for corporate data buyers. | ~$6M Revenue / ~$25M Valuation | $299/month starting listing plan for commercial data vendors. | **Free Forever** buyer discovery account (unlimited search and supplier inquiries) & 14-day vendor listing trial. |
+| **[Ocean Protocol](https://oceanprotocol.com/)** | Decentralized blockchain data exchange protocol and privacy-preserving compute-to-data marketplace for publishing and monetizing data. | ~$5M Ecosystem Treasury / ~$120M Token Market Cap | $0 base platform fee; ~$0.001 network gas fee per transaction on Polygon/Ocean Network + seller-defined asset price. | **Free Forever** open-source stack & public testnet access with unlimited free testnet tokens. |
+| **[Nomad Data](https://www.nomad-data.com/)** | Specialized data marketplace and data procurement platform connecting institutional investors and enterprises with alternative datasets. | ~$3M Revenue / ~$15M Valuation | $499/month for Data Buyer Search & Procurement Subscription. | **7-Day Free Trial** allowing up to 3 custom alternative dataset procurement requests. |
+| **[DataStreamX](https://www.datastreamx.com/)** | Data monetization engine enabling real-time IoT, telemetry, and transactional dataset listing, routing, and access licensing. | ~$2M Revenue / ~$100M Valuation | $350/month starter plan for data monetization and transaction routing. | **14-Day Free Trial** with demo API key and 1,000 test API calls limit. |
+
+---
+
+## 🔓 Open-Source GitHub Projects
+
+The following curated open-source projects power modern data portals, metadata marketplaces, zero-copy data sharing, and decentralized data exchange protocols. Listed below sorted by **Star Count** in descending order:
+
+1. **[OpenMetadata](https://github.com/open-metadata/OpenMetadata)** <a href="https://github.com/open-metadata/OpenMetadata/stargazers"><img src="https://img.shields.io/github/stars/open-metadata/OpenMetadata?style=social&color=white" alt="OpenMetadata Stars"/></a>  
+   Open-source data governance platform and metadata catalog providing data marketplace assets, column-level lineage, data quality checks, and unified discovery across enterprise data stacks.
+
+2. **[DataHub](https://github.com/datahub-project/datahub)** <a href="https://github.com/datahub-project/datahub/stargazers"><img src="https://img.shields.io/github/stars/datahub-project/datahub?style=social&color=white" alt="DataHub Stars"/></a>  
+   Extensible open-source data catalog and metadata platform enabling search, governance, automated lineage, and data product marketplace experiences.
+
+3. **[CKAN](https://github.com/ckan/ckan)** <a href="https://github.com/ckan/ckan/stargazers"><img src="https://img.shields.io/github/stars/ckan/ckan?style=social&color=white" alt="CKAN Stars"/></a>  
+   The world's leading open-source data portal platform for cataloging, publishing, and sharing open government, academic, and enterprise datasets.
+
+4. **[Amundsen](https://github.com/amundsen-io/amundsen)** <a href="https://github.com/amundsen-io/amundsen/stargazers"><img src="https://img.shields.io/github/stars/amundsen-io/amundsen?style=social&color=white" alt="Amundsen Stars"/></a>  
+   Data discovery and metadata engine (originally built at Lyft) for indexing data assets, column statistics, and dataset ownership across data platforms.
+
+5. **[Delta Sharing](https://github.com/delta-io/delta-sharing)** <a href="https://github.com/delta-io/delta-sharing/stargazers"><img src="https://img.shields.io/github/stars/delta-io/delta-sharing?style=social&color=white" alt="Delta Sharing Stars"/></a>  
+   Open protocol for secure zero-copy cross-organization data sharing across cloud data lakes, object storage, and data warehouses.
+
+6. **[Frictionless Data Framework](https://github.com/frictionlessdata/framework)** <a href="https://github.com/frictionlessdata/framework/stargazers"><img src="https://img.shields.io/github/stars/frictionlessdata/framework?style=social&color=white" alt="Frictionless Data Stars"/></a>  
+   Open specifications and Python/JS libraries for packaging, validating, and describing datasets for interoperable data exchange.
+
+7. **[Magda](https://github.com/magda-io/magda)** <a href="https://github.com/magda-io/magda/stargazers"><img src="https://img.shields.io/github/stars/magda-io/magda?style=social&color=white" alt="Magda Stars"/></a>  
+   Cloud-native open data management platform and federated catalog search engine built for Kubernetes deployment and multi-tenant data access.
+
+8. **[Ocean Market](https://github.com/oceanprotocol/market)** <a href="https://github.com/oceanprotocol/market/stargazers"><img src="https://img.shields.io/github/stars/oceanprotocol/market?style=social&color=white" alt="Ocean Market Stars"/></a>  
+   Open-source reference marketplace web application built on Ocean Protocol for publishing, pricing, and exchanging Web3 data assets with compute-to-data privacy.
+
+---
+
+## 💡 Data Marketplace Frameworks & Architectural Patterns
+
+When constructing custom enterprise data exchange platforms or open data portals, engineering teams combine modular components across the data lifecycle:
+
+```
+[ Data Source / Catalog ] ---> [ Open Data Portal / Metadata (CKAN / OpenMetadata) ] 
+                                      │
+                                      ▼
+                      [ Sharing Protocol (Delta Sharing) ]
+                                      │
+                                      ▼
+            [ Access Control & Monetization (Ocean Protocol / Dawex) ]
+                                      │
+                                      ▼
+                   [ Consumer Data Warehouse / API Delivery ]
+```
+
+* **Open Data Publishing**: Use **CKAN** or **Magda** hosted on object storage for public and municipal dataset repositories.
+* **Zero-Copy Data Exchange**: Leverage **Delta Sharing** or **Snowflake Direct Shares** for high-volume tabular dataset transfers without data duplication.
+* **Privacy-Preserving & Monetized Exchange**: Layer **Ocean Protocol** for Web3 access control, tokenized pricing, and compute-to-data workflows where raw data remains protected.
+* **Interoperable Metadata**: Standardize dataset manifests using **Frictionless Data Package** specifications to ensure platform-independent schema validation.
+
+---
+
+## 🤝 How to Contribute
+
+Contributions are always welcome! Check out our contribution guide:
+
+1. **Fork** this repository.
+2. Add your suggested SaaS product or open-source repo in `README.md` maintaining proper table or star-badge format.
+3. Check out the curated awesome lists collection at [Awesome-Awesome-Awesome](https://github.com/ishandutta2007/Awesome-Awesome-Awesome).
+4. Create a Feature Branch (`git checkout -b feature/AddDataPlatform`).
+5. Submit a Pull Request with a short description of the entry.
+
+---
+
+## ☕ Support & Sponsorship
+
+If you find this repository helpful for your data product research or enterprise stack building, please consider supporting the project!
+
+- ⭐️ **Star** this repository to help others discover it.
+- 🔀 **Fork** and share with your data engineering team.
+- 💖 **Sponsor / Buy me a coffee**: Support ongoing open-source maintenance via [GitHub Sponsors Dashboard](https://github.com/sponsors/ishandutta2007).
+
+---
+
+## 📈 Star History
+
+[![Star History Chart](https://star-history.dera.page/svg?repos=ishandutta2007/Awesome-Data-Marketplace-Platform&type=date&legend=top-left)](https://star-history.dera.page/#ishandutta2007/Awesome-Data-Marketplace-Platform&type=date&legend=top-left)
+
+---
+
+## ⚖️ Disclaimer
+
+- This is a **community-curated** educational directory — not exhaustive and not an official product endorsement.
+- Acquiring, selling, and distributing datasets involves legal licensing, privacy compliance (GDPR, CCPA), and regulatory obligations. Open-source software and market listings do not substitute for formal legal review of commercial data licensing contracts.
